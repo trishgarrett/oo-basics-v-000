@@ -13,8 +13,8 @@ class Shoe
   def cobble
     puts "Your shoe is as good as new!"
   end
-
-  
-
-
 end
+
+old = Shoe.new
+old.cobbler = "new"
+old.cobbler
