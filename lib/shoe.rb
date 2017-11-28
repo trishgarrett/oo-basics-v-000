@@ -15,6 +15,3 @@ class Shoe
   end
 end
 
-old = Shoe.new
-old.cobbler = "new"
-old.cobbler
